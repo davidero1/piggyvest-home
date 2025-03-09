@@ -1,0 +1,1151 @@
+@media (max-width:600px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    body {
+        font-family: "Plus Jakarta Sans", sans-serif;
+    }
+
+    .header-banner {
+        background-color: #f2f7f8;
+        position: sticky;
+        z-index: 2;
+        width: auto;
+        height: auto;
+    }
+    
+    .header-banner-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+
+    .logobnav {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        flex-shrink: 1;
+    }
+
+    .hbclogobox {
+        margin-left: 1.8rem;
+        margin-top: 0.5rem;
+    }
+
+    .logo {
+        width: 9.3rem;
+        height: 4.3rem;
+    }
+
+    nav ul.navbar {
+        display: flex;
+        flex-direction: column;
+        min-height: 15rem;
+        background: #f2f7f8;
+        list-style-type: none;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 1rem;
+    }
+
+    #options {
+        background-color: #f2f7f8;
+        color: #4e657a;
+        border: none;
+        font-size: 1rem;
+        font-weight: 600;
+    }
+    
+    li {
+        font-weight: 600;
+        padding-right: 1rem;
+    }
+
+    a.Alink-li:link, a.Alink-li:visited {
+        color: #3d4f60;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 1rem;
+    }
+    
+    a.Alink-li:hover, a.Alink-li:active {
+        color: #3d4f60;
+    }
+    
+    .hbc-buttonbox {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        margin: auto;
+        padding: 1rem;
+    }
+
+    a.Alink-signin:link, a.Alink-signin:visited {
+        color: #122231;
+        padding: 1.1rem 11.6rem 1.1rem 11.6rem;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border: 0.06rem solid #122231;
+        border-radius: 0.75rem;
+        margin: auto;
+        margin-top: 0.5rem;
+        margin-bottom: 1.9rem;
+    }
+    
+    a.Alink-signin:hover, a.Alink-signin:active {
+        color: black;
+    }
+    
+    a.Alink-cfa:link, a.Alink-cfa:visited {
+        background-color: #122231;
+        color: white;
+        padding: 1.25rem 8.6rem 1.25rem 8.6rem;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 0.9rem;
+        font-weight: 600;
+        border-radius: 0.75rem;
+        margin: auto;
+    }
+    
+    a.Alink-cfa:hover, a.Alink-cfa:active {
+        color:white;
+    }
+
+    .header-header {
+        background-color: #f2f7f8;
+    }
+    
+    .header-header-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    
+    .hhctextbox {
+        display: flex;
+        flex-direction: column;
+        margin-left: 2rem;
+        width: 26.25rem;
+        min-height: 28rem;
+        margin-top: 2rem;
+    }
+    
+    .hhctxtbox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+    
+    .h-hhctb {
+        color: #122231;
+        font-size: 3rem;
+        text-align: center;
+    }
+    
+    .p-hhctb {
+        color: #122231c6;
+        font-size: 1rem;
+        line-height: 1.9rem;
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        text-align: center;
+    }
+    
+    .hhcbuttonbox {
+        display: flex;
+        flex-direction: row;
+        width: 21.8rem;
+        justify-content: space-between;
+        margin: auto;
+        margin-top: -3rem;
+    }
+    
+    .hhcbb-apl {
+        background-color: #122231;
+        border-radius: 0.75rem;
+        padding: 0.6rem 0.9rem 0.6rem 0.93rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .hhcbb-gpl {
+        background-color: #122231;
+        border-radius: 0.75rem;
+        padding: 0.6rem 1.25rem 0.6rem 1.25rem;
+        display: flex;
+        justify-content: center;
+    }
+    
+    a.Alink-stores:link, a.Alink-stores:visited {
+        color: white;
+        text-decoration: none;
+        font-size: 0.9rem;
+        font-weight: 600;
+        display: inline;
+        padding-top: 0.15rem;
+    }
+    
+    a.Alink-stores:hover, a.Alink-stores:active {
+        color:white;
+    }
+    
+    .hhcimagebox {
+        display: flex;
+        flex-direction: column;
+        background-color: #f2f7f8;
+        width: 30.2rem;
+    }
+    
+    .mainimg {
+        margin-right: 2.5rem;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        z-index: 0;
+    }
+
+    .mainimage {
+        width: 24rem;
+        height: 25.5rem;
+    }
+    
+    .subboxes {
+        width: 29.7rem;
+        height: 30rem;
+        margin-top: 3.2rem;
+        margin-right: 2.5rem;
+        position: relative;
+        z-index: 1;
+    }
+    
+    .subbox1 {
+        position: absolute;
+        margin-top: 3.4rem;
+        margin-left: 1rem;
+    }
+
+    .sb1 {
+        width:10rem;
+        height:2.9rem;
+    }
+    
+    .subbox2 {
+        position: absolute;
+        margin-top: 4rem;
+        margin-left: 16.5rem;
+    }
+
+    .sb2 {
+        width:10.2rem;
+        height:3.8rem;
+    }
+    
+    .subbox3 {
+        position: absolute;
+        margin-top: 10.4rem;
+        margin-left: 0.4rem;
+    }
+    
+    .sb3 {
+        width:8.2rem;
+        height:2.9rem;
+    }
+
+    .subbox4 {
+        position: absolute;
+        margin-top: 10rem;
+        margin-left: 18rem;
+    }
+
+    .sb4 {
+        width:10.1rem;
+        height:2.8rem;
+    }
+    
+    .subbox5 {
+        position: absolute;
+        margin-top: 22rem;
+        margin-left: 10rem;
+    }
+
+    .sb5 {
+        width:8.5rem;
+        height:3rem;
+    }
+
+    .section1 {
+        background-color: #f2f7f8;
+        height: auto;
+        padding-bottom: 8rem;
+    }
+    
+    .containers1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 1rem;
+    }
+    
+    .padlockbox {
+        margin: auto;
+    }
+    
+    .textboxs1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 2.5rem;
+        width: 28rem;
+    }
+    
+    .htbs1 {
+        font-size: 1.7rem;
+        color: #122231;
+        text-align: center;
+    }
+    
+    .ptbs1 {
+        font-size: 1rem;
+        color: #4e657a;
+        line-height: 1.6rem;
+        text-align: center;
+    }
+    
+    a.Alink-security:link, a.Alink-security:visited {
+        color: #122231;
+        text-decoration: none;
+        font-size: 1.06rem;
+        font-weight: 600;
+        display: inline;
+    }
+    
+    a.Alink-security:hover, a.Alink-security:active {
+        text-decoration: 0.3rem solid underline #5d7892;
+    }
+
+    .section2 {
+        background-color: #f2f7f8;
+    }
+    
+    .containers2 {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    .gridpair1 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-left: -2rem;
+    }
+    
+    .cs2-textbox {
+        background-color: #f2f7f8;
+        margin: auto;
+        width: 22rem;
+        margin-bottom: 4rem;
+        margin-left: 6rem;
+    }
+    
+    .hcs2-tb {
+        font-size: 1.8rem;
+        color: #122231;
+        text-align: center;
+    }
+    
+    .pcs2-tb {
+        font-size: 0.95rem;
+        color: #122231;
+        text-align: center;
+        line-height: 2rem;
+    }
+
+    .cs2-gridbox2 {
+        background-color: white;
+        width: 24rem;
+        height: 28rem;
+        border-radius: 1.25rem;
+        border: 0.06rem solid #5d789225; /* 1px is 0.0625rem */
+        margin-left: 5rem;
+    }
+    
+    .cs2-gridbox2:hover {
+        background-color: #0f60df;
+        color: white;
+    }
+    
+    .cs2txtbx-gb2 {
+        padding: 3.75rem 1.25rem 0.63rem 1.25rem;
+    }
+    
+    .htb-gb2 {
+        font-size: 2rem;
+        color:#0c52c3;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .htb-gb2:hover {
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb2 {
+        font-size: 1rem;
+        color:#3d4f60;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb2:hover {
+        font-size: 1rem;
+        color:white;
+        line-height: 1.75rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    a.Alink-piggybank:link, a.Alink-piggybank:visited {
+        color:#0c52c3;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    a.Alink-piggybank:hover, a.Alink-piggybank:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+    
+    .imgbx-gb2 {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        width: 10.5rem;
+        height: 15rem;
+    }
+    
+    .imgbx-gb2:hover {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        background-image: url("iPhone\ 14-11.avif");
+        width: 10.5rem;
+        height: 15rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+    }
+
+    .gridpair2 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 1.8rem;
+    }
+    
+    .cs2-gridbox3 {
+        background-color: white;
+        width: 24rem;
+        height: 28rem;
+        border-radius: 1.25rem;
+        margin-left: 3.2rem;
+        border: 0.06rem solid #5d789225;
+    }
+    
+    .cs2-gridbox3:hover {
+        background-color:#15A6F3;
+        color: white;
+    }
+    
+    .cs2txtbx-gb3 {
+        padding: 3.75rem 1.25rem 0.6rem 1.25rem;
+        flex: 1 1 10rem;
+    }
+    
+    .imgbx-gb3 {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        width: 10.5rem;
+        height: 15rem;
+    }
+    
+    .imgbx-gb3:hover {
+        margin-left: 12rem;
+        margin-top: -11.4rem;
+        flex: 1 1 10rem;
+        background-image: url("iPhone\ 14\ -\ 22.avif");
+        width: 10.5rem;
+        height: 15rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+    }
+    
+    .htb-gb3 {
+        font-size: 2rem;
+        color:#15A6F3;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .htb-gb3:hover {
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb3 {
+        font-size: 1rem;
+        color:#3d4f60;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb3:hover {
+        font-size: 1rem;
+        color:white;
+        line-height: 1.75rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    a.Alink-safelock:link, a.Alink-safelock:visited {
+        color:#15A6F3;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    a.Alink-safelock:hover, a.Alink-safelock:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+
+    .cs2-gridbox4 {
+        background-color: white;
+        width: 24rem;
+        height: 28rem;
+        border-radius: 1.25rem;
+        border:0.06rem solid #5d789225;
+        margin-left: 3.2rem;
+        margin-top: 2rem;
+    }
+    
+    .cs2-gridbox4:hover {
+        background-color: #2DCA8C;
+        color: white;
+    }
+    
+    .cs2txtbx-gb4 {
+        padding: 3.75rem 1.25rem 0.63rem 1.25rem;
+        width: 20.7rem;
+    }
+    
+    .imgbx-gb4 {
+        margin-left: 12rem;
+        margin-top: -10.5rem;
+        flex: 1 1 10rem;
+        width: 10.5rem;
+        height: 15rem;
+    }
+    
+    .imgbx-gb4:hover {
+        margin-left: 12rem;
+        margin-top: -10.5rem;
+        background-image: url("iphonw.avif");
+        width: 10.5rem;
+        height: 15rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+    }
+    
+    .htb-gb4 {
+        font-size: 2rem;
+        color:#2DCA8C;
+        text-align: center;
+    }
+    
+    .htb-gb4:hover {
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+    }
+    
+    .ptb-gb4 {
+        font-size: 1rem;
+        color:#3d4f60;
+        line-height: 1.7rem;
+        padding-bottom: 7rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb4:hover {
+        font-size: 1rem;
+        color:white;
+        line-height: 1.7rem;
+        padding-bottom: 7rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    a.Alink-targetsavings:link, a.Alink-targetsavings:visited {
+        color: #2DCA8C;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    a.Alink-targetsavings:hover, a.Alink-targetsavings:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+
+    .gridpair3 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-top: 1.8rem;
+        padding-bottom: 6.2rem;
+    }
+
+    .cs2-gridbox5 {
+        background-color: white;
+        width: 24rem;
+        height: 28rem;
+        border-radius: 1.25rem;
+        margin-left: 3.3rem;
+        border: 0.06rem solid #5d789225;
+    }
+    
+    .cs2-gridbox5:hover {
+        background-color: #F163AA;
+        color: white;
+    }
+    
+    .cs2txtbx-gb5 {
+        padding: 3.75rem 1.25rem 0.6rem 1.25rem;
+        flex: 1 1 10rem;
+    }
+    
+    .imgbx-gb5 {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        width: 10.5rem;
+        height: 15rem;
+    }
+    
+    .imgbx-gb5:hover {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        background-image: url("iPhone\ 14.avif");
+        width: 10.5rem;
+        height: 15rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+    }
+    
+    .htb-gb5 {
+        font-size: 2rem;
+        color:#F163AA;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .htb-gb5:hover {
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb5 {
+        font-size: 1rem;
+        color:#3d4f60;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb5:hover {
+        font-size: 1rem;
+        color:white;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    a.Alink-flexnaira:link, a.Alink-flexnaira:visited {
+        color:#F163AA;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    a.Alink-flexnaira:hover, a.Alink-flexnaira:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+
+    .cs2-gridbox6 {
+        background-color: white;
+        width: 24rem;
+        height: 28rem;
+        border-radius: 1.25rem;
+        margin-left: 3.3rem;
+        margin-top: 1.8rem;
+        border: 0.06rem solid #5d789225;
+    }
+    
+    .cs2-gridbox6:hover {
+        background-color: #122231;
+        color: white;
+    }
+    
+    .cs2txtbx-gb6 {
+        padding: 3.75rem 1.25rem 0.63rem 1.25rem;
+        flex: 1 1 10rem;
+    }
+    
+    .imgbx-gb6 {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        height: 10.5rem;
+        width: 15rem;
+    }
+    
+    .imgbx-gb6:hover {
+        margin-left: 12rem;
+        margin-top: -9.7rem;
+        flex: 1 1 10rem;
+        background-image: url("iphone12.avif");
+        width: 10.5rem;
+        height: 15rem;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+    }
+    
+    .htb-gb6 {
+        font-size: 2rem;
+        color:#122231;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .htb-gb6:hover {
+        font-size: 2rem;
+        color:white;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb6 {
+        font-size: 1rem;
+        color:#3d4f60;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    .ptb-gb6:hover {
+        font-size: 1.3rem;
+        color:white;
+        line-height: 1.7rem;
+        padding-bottom: 10.5rem;
+        text-align: center;
+        margin: auto;
+    }
+    
+    a.Alink-flexdollar:link, a.Alink-flexdollar:visited {
+        color:#122231;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 300;
+        display: inline;
+    }
+    
+    a.Alink-flexdollar:hover, a.Alink-flexdollar:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+
+    .section3 {
+        margin-top: 6rem;
+    }
+    
+    .containers3 {
+        display: flex;
+        flex-wrap: wrap;
+        flex: 5 1 10rem;
+        flex-direction: column;
+    }
+    
+    .cs3-textbox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: 3.7rem;
+        width: 28rem;
+        margin-left: 1rem;
+    }
+    
+    .hcs3 {
+        font-size: 2.2rem;
+        color: #122231;
+        text-align: center;
+    }
+    
+    .pcs3 {
+        font-size: 1rem;
+        color: #3d4f60;
+        text-align: center;
+        padding-top: 0.9rem;
+    }
+
+    .cs3-infobox {
+        width: 28rem;
+        margin: auto;
+        background-color: #7913e5;
+        height: 45rem;
+        border-radius: 1.8rem;
+        border: 0.06rem solid #5d789225;
+        margin-bottom: 12.5rem;
+    }
+    
+    .cs3-ibtxtbx {
+        display: flex;
+        flex-direction: column;
+        width: 25rem;
+        margin: auto;
+        margin-top: 4.3rem;
+    }
+    
+    .hibtb {
+        font-size: 2rem;
+        color:white;
+        display: inline;
+        text-align: center;
+    }
+    
+    .pibtb {
+        font-size: 1.1rem;
+        color:#FFDFF3;
+        line-height: 1.75rem;
+        padding-bottom: 1rem;
+        display: inline;
+        text-align: center;
+    }
+    
+    a.Alink-invest:link, a.Alink-invest:visited {
+        color:white;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 400;
+        display: inline;
+        text-align: center;
+    }
+    
+    a.Alink-invest:hover, a.Alink-invest:active {
+        color: white;
+        text-decoration: 0.3rem solid underline #ffffffa8;
+    }
+    
+    .cs3-ibimgbx {
+        background-image: url("iphoneInvest.avif");
+        width: 25rem;
+        height: 26.25rem;
+        min-height: auto;
+        background-size:contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        margin-top: 3.77rem;
+        margin-left: 1.5rem;
+    }
+
+    .section4 {
+        background-color: #f2f7f8;
+        height: 54rem;
+    }
+    
+    .containers4 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+        height: 55rem;
+        margin-top: -5rem;
+    }
+    
+    .cs4-textbox {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        margin-bottom: -0.9rem;
+        width: 28rem;
+        height: auto;
+        margin-top: -1rem;
+    }
+    
+    .hcs4 {
+        font-size: 1.9rem;
+        color: #122231;
+        text-align: center;
+    }
+    
+    .pcs4 {
+        font-size: 0.98rem;
+        color: #3d4f60;
+        text-align: center;
+        padding-top: 0.3rem;
+    }
+    
+    .cs4-videobox {
+        border-radius: 1.25rem;
+        border: 0.8rem solid white;
+    }
+
+    .youtubevid {
+        width: 27rem;
+        height: 30rem;
+        border-radius: 1.1rem;
+    }
+    
+    .section5 {
+        background-color: #f2f7f8;
+    }
+    
+    .containers5 {
+        width: 28rem;
+        height: 41rem;
+        margin: auto;
+        padding-top: 3rem;
+    }
+    
+    .cs5-imagebox {
+        background-image: url("fallbackImg.png");
+        height: 28rem;
+        min-height: auto;
+        background-size: contain;
+        background-repeat: no-repeat;
+        overflow:auto;
+        background-position: center;
+        margin: auto;
+        margin-top: 4rem;
+        z-index: 0;
+    }
+    
+    .cs5-textbox {
+        display: inline;
+        z-index: 1;
+    }
+    
+    .cs5-txtbx {
+        text-align: center;
+    }
+    
+    .hcs5 {
+        color: #122231;
+        font-size: 1.9rem;
+    }
+    
+    .cs5-bttnbx {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: auto;
+        min-width: 19rem;
+        width: 19rem;
+        margin: auto;
+    }
+    
+    .cs5-apl {
+        border-radius: 0.75rem;
+        padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+        display: flex;
+        justify-content: center;
+        border: 0.06rem solid #5d789225;
+    }
+    
+    .cs5-apl:hover {
+        border-radius: 0.75rem;
+        padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+        display: flex;
+        justify-content: center;
+        border: 0.06rem solid #5d78926b;
+    }
+    
+    .cs5-gpl {
+        border-radius: 0.75rem;
+        padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+        display: flex;
+        justify-content: center;
+        border: 0.06rem solid #5d789225;
+    }
+    
+    .cs5-gpl:hover {
+        border-radius: 0.75rem;
+        padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+        display: flex;
+        justify-content: center;
+        border: 0.06rem solid #5d789269;
+    }
+    
+    a.Alink-stores2:link, a.Alink-stores2:visited {
+        color: #122231;
+        text-decoration: none;
+        font-size: 0.8rem;
+        font-weight: 600;
+        display: inline;
+        padding-top: 0.2rem;
+    }
+    
+    a.Alink-stores2:hover, a.Alink-stores2:active {
+        color: #122231;
+    }
+
+    .section6 {
+        background-color: white;
+    }
+    
+    .containers6 {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: 29rem;
+    }
+    
+    .cs6-textbox {
+        margin: auto;
+        margin-top: 5rem;
+    }
+    
+    .hcs6 {
+        color: #122231;
+        font-size: 2rem;
+    }
+    
+    .cs6-gridbox {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        width: 23rem;
+        height: 18rem;
+        margin: auto;
+    }
+
+    .cs6-gb1, .cs6-gb2, .cs6-gb3, .cs6-gb4, .cs6-gb5, .cs6-gb6 {
+        padding: 1rem;
+        margin: auto;
+    }
+
+    .footer1 {
+        background-color: white;
+    }
+    
+    .footer1container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top: 6.25rem;
+        padding-bottom: 5rem;
+    }
+    
+    .listf1c {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 25rem;
+        height: 33rem;
+        margin-top: 2rem;
+    }
+    
+    .f1c-grid1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: auto;
+        height: 9.5rem;
+        justify-content: space-between;
+    }
+    
+    .f1c-grid5 {
+        text-align: left;
+        margin-left: -0rem;
+    }
+    
+    .footerheading {
+        font-size: 0.9rem;
+        color: #122231;
+    }
+    
+    li.footerli {
+        font-size: 0.75rem;
+        font-weight: 300;
+        list-style-type: none;
+    }
+    
+    .fa-brands {
+        color: #3d4f60;
+        font-size: 1.25rem;
+        padding-right: 0.3rem;
+    }
+    
+    .footer2 {
+        background-color: white;
+    }
+    
+    .footer2container {
+        width: 27rem;
+        margin: auto;
+        padding-top: 3rem;
+    }
+    
+    .pf2c {
+        font-size: 0.65rem;
+        color:#5d7892;
+        line-height: 1.25rem;
+    }
+    
+    span {
+        color: #0f60df;
+    }
+
+}
+
+
