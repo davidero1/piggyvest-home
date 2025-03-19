@@ -27,12 +27,12 @@ body {
     flex-direction: row;
     flex-wrap: wrap;
     flex-shrink: 1;
+    width: 100%;
 }
 
 .hbclogobox {
     margin-right: 3rem;
     margin-left: 3rem;
-    margin-top: 0.5rem;
 }
 
 .logo {
@@ -47,7 +47,23 @@ nav ul.navbar {
     list-style-type: none;
     justify-content: space-between;
     align-items: center;
-    margin-top: 2.23rem;
+    margin-top: 0rem;
+    width: 30vw;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.barsicon {
+    display: none;
+}
+
+.fa-solid {
+    color: black;
+    font-size: 3vh;
 }
 
 #options {
@@ -89,16 +105,18 @@ a.Alink-re:hover, a.Alink-re:active {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin: auto;
-    padding-top: 0.5rem;
-    margin-left: 26rem;
+    margin-left: 23vw;
 }
 
 a.Alink-signin:link, a.Alink-signin:visited {
     color: #122231;
-    padding: 1rem 1.6rem 1rem 1.6rem;
+    width: 10vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     text-decoration: none;
-    display: inline-block;
     font-size: 0.93rem;
     font-weight: 600;
     border: 0.06rem solid #122231;
@@ -113,9 +131,13 @@ a.Alink-signin:hover, a.Alink-signin:active {
 a.Alink-cfa:link, a.Alink-cfa:visited {
     background-color: #122231;
     color: white;
-    padding: 1.2rem 1.6rem 1.2rem 1.6rem;
     text-decoration: none;
-    display: inline-block;
+    width: 13vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
     font-size: 0.9rem;
     font-weight: 600;
     border-radius: 0.75rem;
