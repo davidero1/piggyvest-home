@@ -29,13 +29,14 @@
 
     .logobnav {
         display: flex;
-        flex-direction: column;
+        flex-direction: row;
+        justify-content: space-between;
         flex-wrap: wrap;
         flex-shrink: 1;
     }
 
     .hbclogobox {
-        margin-left: 1.8rem;
+        margin-left: 1rem;
         margin-top: 0.5rem;
     }
 
@@ -169,7 +170,6 @@
     .hhctextbox {
         display: flex;
         flex-direction: column;
-        margin-left: 2rem;
         width: 26.25rem;
         min-height: 28rem;
         margin-top: 2rem;
@@ -183,7 +183,7 @@
     
     .h-hhctb {
         color: #122231;
-        font-size: 3rem;
+        font-size: 2.9rem;
         text-align: center;
     }
     
@@ -192,14 +192,14 @@
         font-size: 1rem;
         line-height: 1.9rem;
         margin-top: 1.5rem;
-        margin-bottom: 1.5rem;
+        margin-bottom: 1.2rem;
         text-align: center;
     }
     
     .hhcbuttonbox {
         display: flex;
         flex-direction: row;
-        width: 100vw;
+        width: 90vw;
         justify-content: space-between;
         margin: auto;
     }
@@ -207,8 +207,8 @@
     .hhcbb-apl {
         background-color: #122231;
         border-radius: 0.75rem;
-        width: 60vw;
-        height: 7vh;
+        width: 40vw;
+        height: 6vh;
         display: flex;
         align-items: center;
         text-align: center;
@@ -218,8 +218,8 @@
     .hhcbb-gpl {
         background-color: #122231;
         border-radius: 0.75rem;
-        width: 66vw;
-        height: 7vh;
+        width: 40vw;
+        height: 6vh;
         display: flex;
         align-items: center;
         text-align: center;
@@ -242,14 +242,13 @@
     .hhcimagebox {
         display: flex;
         flex-direction: column;
-        background-color: #f2f7f8;
-        width: 30.2rem;
+        margin: auto;
     }
     
     .mainimg {
         margin-right: 2.5rem;
         margin-top: 2rem;
-        margin-left: 3rem;
+        margin-left: 2rem;
         z-index: 0;
     }
 
@@ -270,7 +269,7 @@
     .subbox1 {
         position: absolute;
         margin-top: 3.4rem;
-        margin-left: 1rem;
+        margin-left: 0rem;
     }
 
     .sb1 {
@@ -281,7 +280,7 @@
     .subbox2 {
         position: absolute;
         margin-top: 4rem;
-        margin-left: 16.5rem;
+        margin-left: 14rem;
     }
 
     .sb2 {
@@ -292,7 +291,7 @@
     .subbox3 {
         position: absolute;
         margin-top: 10.4rem;
-        margin-left: 0.4rem;
+        margin-left: 0rem;
     }
     
     .sb3 {
@@ -303,7 +302,7 @@
     .subbox4 {
         position: absolute;
         margin-top: 10rem;
-        margin-left: 18rem;
+        margin-left: 14rem;
     }
 
     .sb4 {
@@ -313,8 +312,8 @@
     
     .subbox5 {
         position: absolute;
-        margin-top: 22rem;
-        margin-left: 10rem;
+        margin-top: 20rem;
+        margin-left: 8rem;
     }
 
     .sb5 {
@@ -324,7 +323,9 @@
 
     .section1 {
         background-color: #f2f7f8;
-        height: auto;
+        height: 60vh;
+        width: 100%;
+        margin: auto;
         padding-bottom: 8rem;
     }
     
@@ -344,7 +345,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 2.5rem;
-        width: 28rem;
+        width: 88vw;
     }
     
     .htbs1 {
@@ -374,26 +375,31 @@
 
     .section2 {
         background-color: #f2f7f8;
+        width: 100%;
     }
     
     .containers2 {
         display: flex;
         flex-wrap: wrap;
+        width: 90vw;
+        margin: auto;
     }
     
     .gridpair1 {
         display: flex;
         flex-direction: column;
+        width: 90vw;
+        margin: auto;
         flex-wrap: wrap;
-        margin-left: -2rem;
+        margin-left: 0rem;
     }
     
     .cs2-textbox {
         background-color: #f2f7f8;
         margin: auto;
-        width: 22rem;
+        width: 80vw;
         margin-bottom: 4rem;
-        margin-left: 6rem;
+        margin-left: 1rem;
     }
     
     .hcs2-tb {
@@ -415,7 +421,7 @@
         height: 28rem;
         border-radius: 1.25rem;
         border: 0.06rem solid #5d789225; /* 1px is 0.0625rem */
-        margin-left: 5rem;
+        margin-left: 0rem;
     }
     
     .cs2-gridbox2:hover {
@@ -497,6 +503,7 @@
         display: flex;
         flex-direction: column;
         flex-wrap: wrap;
+        width: 90vw;
         margin-top: 1.8rem;
     }
     
@@ -505,7 +512,7 @@
         width: 24rem;
         height: 28rem;
         border-radius: 1.25rem;
-        margin-left: 3.2rem;
+        margin-left: 0rem;
         border: 0.06rem solid #5d789225;
     }
     
@@ -591,7 +598,7 @@
         height: 28rem;
         border-radius: 1.25rem;
         border:0.06rem solid #5d789225;
-        margin-left: 3.2rem;
+        margin-left: 0rem;
         margin-top: 2rem;
     }
     
@@ -674,6 +681,7 @@
         flex-wrap: wrap;
         margin-top: 1.8rem;
         padding-bottom: 6.2rem;
+        width: 90vw;
     }
 
     .cs2-gridbox5 {
@@ -681,7 +689,7 @@
         width: 24rem;
         height: 28rem;
         border-radius: 1.25rem;
-        margin-left: 3.3rem;
+        margin-left: 0rem;
         border: 0.06rem solid #5d789225;
     }
     
@@ -766,7 +774,7 @@
         width: 24rem;
         height: 28rem;
         border-radius: 1.25rem;
-        margin-left: 3.3rem;
+        margin-left: 0rem;
         margin-top: 1.8rem;
         border: 0.06rem solid #5d789225;
     }
@@ -849,6 +857,7 @@
 
     .section3 {
         margin-top: 6rem;
+        width: 100%;
     }
     
     .containers3 {
@@ -863,8 +872,8 @@
         flex-direction: column;
         margin: auto;
         margin-bottom: 3.7rem;
-        width: 28rem;
-        margin-left: 1rem;
+        width: 90vw;
+        margin-left: 1.4rem;
     }
     
     .hcs3 {
@@ -881,7 +890,7 @@
     }
 
     .cs3-infobox {
-        width: 28rem;
+        width: 99.8vw;
         margin: auto;
         background-color: #7913e5;
         height: 45rem;
@@ -936,13 +945,15 @@
         background-size:contain;
         background-repeat: no-repeat;
         overflow:auto;
-        margin-top: 3.77rem;
-        margin-left: 1.5rem;
+        margin: auto;
+        margin-top: 3.7rem;
+        margin-left: 1rem;
     }
 
     .section4 {
         background-color: #f2f7f8;
-        height: 54rem;
+        height: 56rem;
+        width: 100%;
     }
     
     .containers4 {
@@ -958,10 +969,10 @@
         display: flex;
         flex-direction: column;
         margin: auto;
-        margin-bottom: -0.9rem;
-        width: 28rem;
-        height: auto;
-        margin-top: -1rem;
+        margin-bottom: 2rem;
+        width: 90vw;
+        height: 20vh;
+        margin-top: 0rem;
     }
     
     .hcs4 {
@@ -983,13 +994,14 @@
     }
 
     .youtubevid {
-        width: 27rem;
-        height: 30rem;
+        width: 23rem;
+        height: 27rem;
         border-radius: 1.1rem;
     }
     
     .section5 {
         background-color: #f2f7f8;
+        width: 100%;
     }
     
     .containers5 {
@@ -1171,10 +1183,11 @@
     
     .footer2 {
         background-color: white;
+        
     }
     
     .footer2container {
-        width: 27rem;
+        width: 90vw;
         margin: auto;
         padding-top: 3rem;
     }
